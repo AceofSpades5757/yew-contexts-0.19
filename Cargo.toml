@@ -1,6 +1,6 @@
 [package]
 name = "yew-context"
-version = "0.19.0"
+version = "0.19.0"   # For Yew Reference (Minor Version)
 edition = "2021"
 publish = false      # Prevent Publishing
 
