@@ -11,3 +11,7 @@ This was created due to repeated failures to get a very simple example working u
 Run using Trunk.
 
 `trunk serve --open`
+
+# Contributing
+
+Feel free to create an issue if you have any questions, concerns, or would like to correct me on anything here.
