@@ -10,7 +10,9 @@ pub struct Settings {
 
 impl Default for Settings {
     fn default() -> Self {
-        Self { setting_1: String::from("DEFAULT SETTING 1") }
+        Self {
+            setting_1: String::from("DEFAULT SETTING 1"),
+        }
     }
 }
 
@@ -34,10 +36,8 @@ pub struct SettingsProviderProps {
     pub children: Children,
 }
 
-
 #[function_component(SettingsProvider)]
 pub fn settings_provider(props: &SettingsProviderProps) -> Html {
-
     let settings = use_reducer(|| Settings::default());
     html! {
         <>
