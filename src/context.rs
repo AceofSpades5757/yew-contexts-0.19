@@ -38,7 +38,7 @@ pub struct SettingsProviderProps {
 #[function_component(SettingsProvider)]
 pub fn settings_provider(props: &SettingsProviderProps) -> Html {
 
-    let settings = use_reducer_eq(|| Settings::default());
+    let settings = use_reducer(|| Settings::default());
     html! {
         <>
             <ContextProvider<SettingsContext> context={settings}>
